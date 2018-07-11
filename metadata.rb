@@ -1,6 +1,6 @@
 name 'c7_audit'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Chua Zi Jian'
+maintainer_email 'chuazj@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures c7_audit'
 long_description 'Installs/Configures c7_audit'
@@ -18,3 +18,5 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/c7_audit'
+
+depends 'audit'
