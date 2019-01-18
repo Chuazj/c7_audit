@@ -10,11 +10,11 @@ default['audit']['profiles'] =
       },
       {
         name: 'CIS CentOS Linux 7 Benchmark Level 1',
-        compliance: 'admin/cis-centos7-level1',
+        compliance: 'admin/cis-centos7-level1-server',
       },
       {
         name: 'CIS CentOS Linux 7 Benchmark Level 2',
-        compliance: 'admin/cis-centos7-level2',
+        compliance: 'admin/cis-centos7-level2-server',
       },
     ]
 end
